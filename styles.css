@@ -1,0 +1,64 @@
+/* BASE STYLES */
+body {
+  margin: 0;
+  font-family: DM Sans, sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+/* NAVIGATION STYLING */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+}
+
+/* HERO SECTION STYLING */
+.hero {
+  padding: 60px 20px;
+  text-align: left;
+}
+
+/* PRODUCT GRID LAYOUT */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* PRODUCT CARD DESIGN */
+.card {
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* BUTTON STYLING */
+button {
+  padding: 10px;
+  background: #e8c97a;
+  border: none;
+  cursor: pointer;
+}
+
+/* CART SIDEBAR */
+.cart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 320px;
+  height: 100%;
+  background: #111;
+  padding: 20px;
+  display: none;
+}
+
+/* OVERLAY BACKDROP */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+}
